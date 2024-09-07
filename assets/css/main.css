@@ -80,28 +80,17 @@ h6 {
   border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border for subtle definition */
   border-radius: 10px; /* Rounded corners (optional) */
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); /* Subtle shadow for depth */
-  padding: 10px 20px;
   position: fixed;
   width: 100%;
   z-index: 1000;
   top: 0;
 }
 
-.navbar-glass a {
-  color: white; /* White text for contrast */
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-.navbar-glass a:hover {
-  color: #f0f0f0; /* Slightly lighter color on hover */
-}
-
 
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
