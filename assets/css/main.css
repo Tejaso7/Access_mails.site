@@ -74,11 +74,12 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .navbar-glass {
-  background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
-  backdrop-filter: blur(10px); /* Blur effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+  background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+  backdrop-filter: blur(15px) saturate(150%); /* Blur and saturation for a glossy effect */
+  -webkit-backdrop-filter: blur(15px) saturate(150%); /* For Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border for subtle definition */
+  border-radius: 10px; /* Rounded corners (optional) */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); /* Subtle shadow for depth */
   padding: 10px 20px;
   position: fixed;
   width: 100%;
@@ -87,13 +88,13 @@ h6 {
 }
 
 .navbar-glass a {
-  color: white; /* Text color */
+  color: white; /* White text for contrast */
   text-decoration: none;
   padding: 10px 15px;
 }
 
 .navbar-glass a:hover {
-  color: #ddd; /* Lighter color on hover */
+  color: #f0f0f0; /* Slightly lighter color on hover */
 }
 
 
