@@ -73,6 +73,30 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+.navbar-glass {
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.navbar-glass a {
+  color: white; /* Text color */
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.navbar-glass a:hover {
+  color: #ddd; /* Lighter color on hover */
+}
+
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
